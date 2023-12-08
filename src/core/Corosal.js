@@ -8,8 +8,8 @@ import img5 from './../image/freen.jpg';
 import img6 from './../image/home4.jpg';
 import img7 from './../image/home2.jpg';
 import img8 from './../image/home3.jpg';
-import img9 from './../image/kitchen.jpg';
-import img10 from './../image/snack.jpg'
+// import img9 from './../image/kitchen.jpg';
+// import img10 from './../image/snack.jpg'
 export default function Corosal() {
     return (
         <div>
