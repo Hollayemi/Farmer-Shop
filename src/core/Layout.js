@@ -14,9 +14,9 @@ const Layout = ({
 }) => (
     <div>
         <Menu />
-        <div className="jumbotron-me">
-            <h2 className="font-weight-bold font-italic">{title}</h2>
-            <p className="lead font-weight-bold italic">{description}</p>
+        <div className="jumbotron-me mb-3">
+            <h2 className="font-weight-bold">{title}</h2>
+            <p className="lead font-weight-bold">{description}</p>
         </div>
         
         <div className={className}>{children}</div>

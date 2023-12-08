@@ -102,16 +102,16 @@ const FooterPagePro = () => {
             </h6>
             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
             <p>
-              <i className="fa fa-home mr-3" /> Gorakhpur, UP 274203, India
+              <i className="fa fa-home mr-3" />AAUA Ondo State
             </p>
             <p>
               <i className="fa fa-envelope mr-3" /> info@Farmerstore.com
             </p>
             <p>
-              <i className="fa fa-phone mr-3" /> + 01 234 567 88
+              <i className="fa fa-phone mr-3" /> +234656787654
             </p>
             <p>
-              <i className="fa fa-print mr-3" /> + 01 234 567 89
+              <i className="fa fa-print mr-3" /> +234656787654
             </p>
           </MDBCol>
         </MDBRow>
@@ -119,7 +119,7 @@ const FooterPagePro = () => {
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
           &copy; {new Date().getFullYear()} Copyright:{" "}
-          <Link to="https://github.com/shsarv"> www.Farmer's Store.com</Link>
+          <Link to="https://github.com/Hollayemi"> www.Farmer's Store.com</Link>
         </MDBContainer>
       </div>
     </MDBFooter>

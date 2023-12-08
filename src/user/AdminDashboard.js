@@ -4,8 +4,8 @@ import { isAuthenticated } from "../auth";
 import { Link } from "react-router-dom";
 
 const AdminDashboard = () => {
-    const {// eslint-disable-next-line
-        user: { _id, name, email, role }
+    const {
+        user: { name, email, role }
     } = isAuthenticated();
 
     const adminLinks = () => {
@@ -40,7 +40,7 @@ const AdminDashboard = () => {
 
     const adminInfo = () => {
         return (
-            <div className="card mb-5">
+            <div className="card mb-5 mt-4">
                 <h3 className="card-header">User Information</h3>
                 <ul className="list-group">
                     <li className="list-group-item">{name}</li>
@@ -60,8 +60,8 @@ const AdminDashboard = () => {
             className="container-fluid"
         >
             <div className="row">
-                <div className="col-3">{adminLinks()}</div>
-                <div className="col-9">{adminInfo()}</div>
+                <div className="col-md-4">{adminLinks()}</div>
+                <div className="col-md-8">{adminInfo()}</div>
             </div>
         </Layout>
     );

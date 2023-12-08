@@ -51,13 +51,13 @@ const AddCategory = () => {
 
     const showSuccess = () => {
         if (success) {
-            return <h3 className="text-success">{name} is created</h3>;
+            return <h5 className="text-success">{name} is created</h5>;
         }
     };
 
     const showError = () => {
         if (error) {
-            return <h3 className="text-danger">Category should be unique</h3>;
+            return <h5 className="text-danger">Category should be unique</h5>;
         }
     };
 
@@ -74,7 +74,7 @@ const AddCategory = () => {
             title="Add a new category"
             description={`G'day ${user.name}, ready to add a new category?`}
         >
-            <div className="row">
+            <div className="row px-2">
                 <div className="col-md-8 offset-md-2">
                     {showSuccess()}
                     {showError()}

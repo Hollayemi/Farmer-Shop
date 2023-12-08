@@ -14,7 +14,8 @@ const isActive = (history, path) => {
 
 const Menu = ({ history }) => (
     <nav className="navbar navbar-expand-lg navbar-dark bg-light" id="my-navigation-front">
-        <Link className="navbar-brand" to="/"><img src={logo} className="d-inline-block align-top"style={{width:70,height:50}} alt="" />Farmer's Store
+        <Link className="navbar-brand flex" to="/"><img src={logo} className="d-inline-block align-top"style={{width:60,height:40}} alt="" />
+        <h5>Farmer's Store</h5>
         </Link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
